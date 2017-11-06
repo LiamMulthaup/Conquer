@@ -14,4 +14,8 @@ public class vertices
 		}
 		
 	}
+	public boolean isAdjacentToRiver()
+    {
+        return (verticesRiverActive[0] || verticesRiverActive[1] || verticesRiverActive[2] || verticesRiverActive[3] || verticesRiverActive[4] || verticesRiverActive[5]);
+    }
 }
